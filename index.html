@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title> Card Game </title>
+</head>
+
+<body>
+  <header id="realheader">
+    <h1 class="rainbow" id="header">Card Game Timo Raterink</h1>
+    <h1 class="rainbow" id="youWin">Congratulations, you win!</h1>
+    <p id="youWinSmall"> You get no reward whatsoever, though.</p>
+    <p id="youWinSmaller"> I mean, what'd you expect, you spent about two seconds doing this really low-effort game made by a 16 year old student that was ill at the time and had to finish his project in two days. There really wasn't any quality control whatsoever and to be honest I'm quite impressed you've managed to get as far as this in the first place. I'd expected the game to break long before now. Anyway, if you're still reading this, you must be pretty desperate for some kind of entertainment. Too bad, there's nothing here. Just empty words that mean basically nothing and are only meant to steal your time. No, seriously. There's nothing here apart from some scribbles I made when I had way too much stuff to do to be making these scribbles in the first place. I'm just gonna stop now.</p>
+    <p id="filthycheater">and you're also a filthy cheater.</p>
+    <input type="button" id="cheatButton" name="cheat" class="button" value="cheat" onclick="cheatButton()">
+  </header>
+  <div class="rij-1" id="rij-1">
+    <label>
+        <input class="radiobutton" type="radio" name="left" id="links-1">
+        <img class="image" id="tom" src="images/fallout4.png" alt="">
+    </label>
+    <label>
+        <input class="radiobutton" type="radio" name="left" id="links-2">
+        <img class="image" id="thor" src="images/metroid.jpg" alt="">
+    </label>
+    <label>
+        <input class="radiobutton" type="radio" name="left" id="links-3">
+        <img class="image"  id="kate"src="images/rocketleague.jpg" alt="">
+    </label>
+    <label>
+        <input class="radiobutton" type="radio" name="left" id="links-4">
+        <img class="image" id="russel" src="images/overwatch.jpg" alt="">
+    </label>
+    <label>
+        <input class="radiobutton" type="radio" name="left" id="links-5">
+        <img class="image" id="robert" src="images/tf2logo.jpg" alt="">
+    </label>
+    <label>
+        <input class="radiobutton" type="radio" name="left" id="links-6">
+        <img class="image" id="dylan" src="images/rainbowsix.jpg" alt="">
+    </label>
+    <label>
+        <input class="radiobutton" type="radio" name="left" id="links-7">
+        <img class="image" id="chris" src="images/minecraft.jpg" alt="">
+    </label>
+    <label>
+        <input class="radiobutton" type="radio" name="left" id="links-8">
+        <img class="image" id="tomc" src="images/pokeball.jpg" alt="">
+    </label>
+    <label>
+        <input class="radiobutton" type="radio" name="left" id="links-9">
+        <img class="image" id="bena" src="images/pubg.jpg" alt="">
+    </label>
+  </div>
+  <div class="score">
+    <input type="radio" name="middle" id="middle" class="radiobutton">
+    <h1 id="scoreText"></h1>
+  </div>
+  <div class="rij-2" id="rij-2">
+    <label>
+          <input class="radiobutton" type="radio" name="right" id="rechts-1">
+          <img class="image" id="saving" src="images/creeeper.jpg" alt="">
+      </label>
+    <label>
+          <input class="radiobutton" type="radio" name="right" id="rechts-2">
+          <img class="image" id="ragnarok" src="images/metroidcreature.png" alt="">
+      </label>
+    <label>
+          <input class="radiobutton" type="radio" name="right" id="rechts-3">
+          <img class="image" id="underworld" src="images/lordandsavior.jpg" alt="">
+      </label>
+    <label>
+          <input class="radiobutton" type="radio" name="right" id="rechts-4">
+          <img class="image" id="gladiator" src="images/angery.jpg" alt="">
+      </label>
+    <label>
+          <input class="radiobutton" type="radio" name="right" id="rechts-5">
+          <img class="image" id="ironman" src="images/brotherhoodofsteel.jpg" alt="">
+      </label>
+    <label>
+          <input class="radiobutton" type="radio" name="right" id="rechts-6">
+          <img class="image" id="maze" src="images/gardevoir.jpg" alt="">
+      </label>
+    <label>
+          <input class="radiobutton" type="radio" name="right" id="rechts-7">
+          <img class="image" id="captain" src="images/chickendinner.jpg" alt="">
+      </label>
+    <label>
+          <input class="radiobutton" type="radio" name="right" id="rechts-8">
+          <img class="image" id="samurai" src="images/rocketball.jpg" alt="">
+      </label>
+    <label>
+          <input class="radiobutton" type="radio" name="right" id="rechts-9">
+          <img class="image" id="pearlharbor" src="images/genji.jpg" alt="">
+      </label>
+  </div>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

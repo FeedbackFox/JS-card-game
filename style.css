@@ -1,0 +1,78 @@
+html {
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: lightgrey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  border-radius: 1vw;
+  padding-top: 2vw;
+  padding-bottom: 0;
+  width: 40vw;
+  height: 7.5vw;
+  padding-top: 1.5vw;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 3vw;
+  margin-left: 29.75vw;
+}
+
+.rij-1 {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 1em;
+border: 4px solid #00becc;
+background-color: #008f99;
+float: left;
+padding: 10px;
+}
+
+.rij-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  border: 4px solid #00becc;
+  background-color: #008f99;
+  float: right;
+  padding: 10px;
+  margin: auto;
+}
+
+#tom, #saving, #ragnarok, #thor, #tomc, #bena, #kate, #russel, #robert, #dylan,
+#chris, #maze, #underworld, #gladiator, #captain, #samurai, #pearlharbor, #ironman{
+  width: 10vw;
+  height: 10vw;
+}
+
+.radiobutton {
+  display: none;
+}
+
+.score {
+  width: 10vw;
+  margin-left: 14.5vw;
+  height: auto;
+  font-size: 1vw;
+  display: inline-block;
+}
+#filthycheater{
+  color: black;
+  opacity: 0.1;
+}
+
+#youWinSmaller {
+
+}
+
+#filthycheater, #youWin, #youWinSmall, #youWinSmaller {
+  display: none;
+}
+#cheatButton {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
